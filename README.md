@@ -56,13 +56,13 @@ The repository is organized into progressive levels.
 
 ``` text
 Level 1  → Arrays
-Level 2  → Stack
-Level 3  → Queue
-Level 4  → Circular Queue
-Level 5  → Priority Queue
-Level 6  → Singly Linked List
-Level 7  → Doubly Linked List
-Level 8  → Circular Linked List
+Level 2  → Singly Linked List
+Level 3  → Doubly Linked List
+Level 4  → Circular Linked List
+Level 5  → Stack
+Level 6  → Queue
+Level 7  → Circular Queue
+Level 8  → Priority Queue 
 Level 9  → Stack & Queue using Linked List
 Level 10 → Expression Applications
 ```
