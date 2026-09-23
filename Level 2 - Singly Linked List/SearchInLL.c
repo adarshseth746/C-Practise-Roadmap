@@ -86,3 +86,12 @@ int main() {
 // temp = second 20: Check if temp->data (20) == targetVal (15) -> False, move to next node
 // temp = third 30: Check if temp->data (30) == targetVal (15) -> False, move to next node
 // temp = NULL: End of list reached, return NULL to indicate that the target value was not found in the linked list.
+
+
+
+// Time Complexity :
+
+// If the target value is found at the head of the linked list, the time complexity is O(1) since we only need to check the first node.
+// If the target value is found at the end of the linked list or not found at all, the time complexity is O(N) since we need to traverse the entire linked list to find the target value or determine that it is not present.
+
+// Space Complexity = O(N) (for storing the nodes in memory)

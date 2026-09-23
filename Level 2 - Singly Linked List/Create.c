@@ -83,3 +83,7 @@ int main() {
 // temp = third: print temp -> data (30), move temp to temp -> next (NULL)
 
 // Final output: Linked List: 10 -> 20 -> 30 -> NULL!
+
+
+// Time Complexity = O(N) (for traversing the linked list)
+// Space Complexity = O(N) (for storing the nodes in memory)

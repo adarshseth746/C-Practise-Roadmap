@@ -124,3 +124,9 @@ int main() {
 // free(temp) (the node with value 10 is deleted and its memory is freed)
 
 // Final linked list after deletion: 20 -> 30 -> NULL (head = 20)
+
+// Time Complexity
+// For Best Case, when the element is present at the first position = O(1)
+// For Average and Worst  Case, when the element is present at the middle or last position = O(n)
+
+// Space Complexity = O(N) (for storing the nodes in memory)

@@ -92,3 +92,7 @@ int main() {
 // Update the head to point to the new node: head = newNode (head = 5 -> 10 -> 20 -> 30 -> NULL)
 
 // Final linked list after insertion: 5 -> 10 -> 20 -> 30 -> NULL
+
+
+// Time Complexity = O(1) since we are inserting at the beginning of the linked list
+// Space Complexity = O(N) (for storing the nodes in memory)

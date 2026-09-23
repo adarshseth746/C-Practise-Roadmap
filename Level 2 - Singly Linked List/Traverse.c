@@ -63,3 +63,8 @@ int main()
 //                               ======================    DRY RUN       ======================
 
 // Same as the previous dry run, the output will be: 10 -> 20 -> 30 -> NULL
+
+
+
+// Time Complexity = O(N) since we need to traverse the linked list to find the last node
+// Space Complexity = O(N) (for storing the nodes in memory)

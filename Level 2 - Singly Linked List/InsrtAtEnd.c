@@ -93,3 +93,8 @@ int main() {
 // head remains unchanged, still pointing to the first node (10)
 
 // Final linked list after insertion: 10 -> 20 -> 30 -> 40 -> NULL
+
+
+// Time Complexity = O(N) since we need to traverse the linked list to find the last node and then insert the new node at the end of the list
+
+// Space Complexity = O(N) (for storing the nodes in memory)

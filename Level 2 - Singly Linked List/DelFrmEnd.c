@@ -106,3 +106,7 @@ int main() {
 // free(temp) (the node with value 10 is deleted and its memory is freed)
 
 // Final linked list after deletion: 20 -> 30 -> NULL (head = 20)
+
+
+// Time Complexity = O(N) since we need to traverse the linked list to find the last node
+// Space Complexity = O(N) (for storing the nodes in memory)

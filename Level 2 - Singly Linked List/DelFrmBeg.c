@@ -76,7 +76,7 @@ int main() {
 
 // Finally, we free the memory allocated for the deleted node using the free() function to avoid memory leaks and return the updated head of the linked list.
 
-    
+
 //                           ======================    DRY RUN       ======================
 
 // Initial linked list: 10 -> 20 -> 30 -> NULL (head = 10)
@@ -88,3 +88,8 @@ int main() {
 // free(temp) (the node with value 10 is deleted and its memory is freed)
 
 // Final linked list after deletion: 20 -> 30 -> NULL (head = 20)
+
+
+
+// Time Complexity = O(1) since the node which has to be deleted is head itself
+// Space Complexity = O(N) (for storing the nodes in memory)
