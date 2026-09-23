@@ -108,7 +108,6 @@ int main() {
 // Finally, we free the memory allocated for the deleted node using the free() function to avoid memory leaks and return the updated head of the linked list.
 
 // MOST IMPORTANTLY, notice that 3 cases are handled in the code:
-
 // 1. If the target value is not found in the linked list (temp == NULL)
 // 2. If the target value is found at the head of the linked list (prev == NULL and temp != NULL)
 // 3. If the target value is found somewhere in the middle or end of the linked list (prev != NULL and temp != NULL)

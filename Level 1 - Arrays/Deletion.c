@@ -42,3 +42,6 @@ int main()
 // Now, n = 4 => [1, 2, 4, 5]
 
 // Final output: 1 2 4 5
+
+// Time Complexity = O(N) (for shifting the elements)
+// Space Complexity = O(1) (no extra space used)

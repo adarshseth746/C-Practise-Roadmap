@@ -39,3 +39,7 @@ int main()
 // i = 2: arr[2] = arr[1] => [10, 20, 20, 30, 40]
 // Now, arr[2] = 25 => [10, 20, 25, 30, 40]
 // Final output: 10 20 25 30 40
+
+
+// Time Complexity = O(N) (for shifting the elements)
+// Space Complexity = O(1) (no extra space used)

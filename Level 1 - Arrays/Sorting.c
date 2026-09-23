@@ -60,3 +60,7 @@ int main() {
 // i = 3, j = 0: Compare arr[0] (1) and arr[1] (3) since 1 < 3 => No swap arr: [1, 3, 4, 7, 8]
 
 // Final sorted array: [1, 3, 4, 7, 8]
+
+
+// Time Complexity = O(N^2)
+// Space Complexity = O(1)

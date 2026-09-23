@@ -57,3 +57,13 @@ int main() {
 
 
 // Note: The program uses a 'Linear Search' algorithm to find the target value in the array. This algorithm has a time complexity of O(n), where n is the number of elements in the array.
+
+
+// For the worst case scenario, the target value may not be present in the array, and the algorithm will have to check all elements before concluding that the target is not found. In this case, the time complexity will be O(n).
+
+// Time Complexity = O(N)
+
+// For the best case scenario, the target value may be present at the first index of the array, and the algorithm will find it in just one comparison. In this case, the time complexity will be O(1).
+
+
+// Space Complexity = O(1)
